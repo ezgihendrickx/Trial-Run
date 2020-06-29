@@ -1,38 +1,49 @@
 @charset "UTF-8";
 /* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 /* I added total margin to whole page with universal selector sign * */
 
 * {
 	margin: 2px;
 }
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
 /* vh means viewports height, kind of full screen height*/
 
+h2 {
+	color: #78BB8F;
+}
+
+	
 	.container { 
-		background-color: #6c6aa9;
+		background-color: white;
 		text-align: center;
 		vertical-align: middle;
 	}
 
 	nav {
-		background-color: #dbacdd;
-		min-height: 25vh;
-		line-height:25vh;
+		background-color: white;
+		/*min-height: 25vh;
+		line-height:25vh;*/
+		text-align: center;
 	}
 	main {
-		background-color: #968089;
-		min-height: 25vh;
-		line-height:25vh;
+		background-color: white;
+		/*min-height: 25vh;
+		line-height:25vh;*/
 	}
 	aside {
-		background-color: #e2664c;
-		min-height: 25vh;
-		line-height:25vh;
+		background-color: white;
+		/*min-height: 25vh;
+		line-height:25vh;*/
 	}
 	section {
-		background-color: #e2664c;
-		min-height: 25vh;
-		line-height:25vh;
+		background-color: white;
+		/*min-height: 25vh;
+		line-height:25vh;*/
 	}
 
 
@@ -43,8 +54,8 @@
 	.container {
 		/* To have the container show on 100% of your screen vertically*/
 		min-height:100vh;
-		vertical-align: middle;
-		line-height: 100vh;
+		/*vertical-align: middle;
+		line-height: 100vh;*/
 		display: grid;
 		/* The grid-column-gap property defines the size of the gap between the columns in a grid layout.*/
 		grid-column-gap: 1px;
@@ -53,10 +64,16 @@
 	}
 	
 	/* Align the text vertically in the center*/
-	.container, nav, main, aside, section {
+	/*.container, nav, main, aside, section {
 		vertical-align: middle;
 		line-height: 100vh;
-	}
-	
+	}*/
+	img {
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
 	
 }
