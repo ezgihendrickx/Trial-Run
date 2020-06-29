@@ -17,7 +17,6 @@ h2 {
 	color: #78BB8F;
 }
 
-	
 	.container { 
 		background-color: white;
 		text-align: center;
@@ -45,10 +44,23 @@ h2 {
 		/*min-height: 25vh;
 		line-height:25vh;*/
 	}
-
-
-/* To make it responsive*/
-@media (min-width:768px) {
+/* Medium devices (portrait tablets and large phones, 480px and up) */
+@media (min-width:768px) {	
+	/* Apply Grid*/
+	.container {
+		/* To have the container show on 100% of your screen vertically*/
+		min-height:50vh;
+		/*vertical-align: middle;
+		line-height: 100vh;*/
+		display: grid;
+		/* The grid-column-gap property defines the size of the gap between the columns in a grid layout.*/
+		grid-column-gap: 1px;
+		/*The grid-template-columns property specifies the number (and the widths) of columns in a grid layout. The values are a space separated list, where each value specifies the size of the respective column.Auto auto auto auto means 4 column default*/
+		grid-template-columns: 25% 25%;
+	}
+}
+/* To make it responsive;Large devices (large laptops and desktops, 1024px and up)*/
+@media (min-width:1024px) {
 	
 	/* Apply Grid*/
 	.container {
