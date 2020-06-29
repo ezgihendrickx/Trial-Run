@@ -6,4 +6,5 @@ Create this view pixel-perfectly. Make it responsive: the grid should stack on s
 https://ezgi-interface1.netlify.app/
 # Interface 2
 Create this view pixel-perfectly.
+https://ezgi-interface2.netlify.app/
 
