@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+/* I added total margin to whole page with universal selector sign * */
+
+* {
+	margin: 10px;
+	margin-right: 10px;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #4285F4;
+	color: white;
+}
+
+h1 {
+	color: white;
+}
+p {
+	margin-bottom: 0;
+}
+img {
+	width: 320px;
+	height: 127px;
+}
+
+.next {
+	color: white;
+	font-size: 25px;
+}
+
+	img {
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
+container {
+	margin-top: 0;
+}
+	
+aside {
+	float: right;
+}
+section {
+	float: left;
+}
+
+footer {
+	margin-top: 0px;
+	padding-left: 110px;
+	float: left;
+	
+}
