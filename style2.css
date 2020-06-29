@@ -16,16 +16,15 @@ body {
 	color: white;
 }
 
-h1 {
-	color: white;
-}
-p {
-	margin-bottom: 0;
-}
-
 img {
 	width: 320px;
 	height: 127px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
 }
 
 .next {
@@ -33,27 +32,12 @@ img {
 	font-size: 25px;
 }
 
-	img {
-	margin: 10px;
-	transition: all 1s;
-}
-img:hover {
-	transform: scale(1.1);
-}
 container {
 	margin-top: 0;
-}
-	
-aside {
-	float: right;
-}
-section {
-	float: left;
+	padding-top: 0;
 }
 
 footer {
 	margin-top: 0px;
-	padding-left: 110px;
-	float: left;
-	
+	padding-left: 110px;	
 }
