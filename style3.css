@@ -25,8 +25,7 @@ h5 {
 }
 
 .container {
-	background-color: aqua;
-	border: dashed;
+	background-color: white;
 	width: 995px;
   	height: 531px;
 }
@@ -50,6 +49,12 @@ h5 {
 .rounded {
 	 border-radius: 50%;
 	
+}
+
+section {
+	font-size: 36px;
+	color: #949494;
+	float: right;
 }
 
 @media (min-width:480px) {	
