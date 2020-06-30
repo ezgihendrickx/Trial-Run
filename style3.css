@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+* {
+	margin: 2px;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+	text-align: left;
+	color: #949494;
+}
+
+h5 {
+	color: #949494;
+}
+
+.nametag {
+	float: right;
+	
+}
+
+.container {
+	background-color: aqua;
+	border: dashed;
+	width: 995px;
+  	height: 531px;
+}
+.image {
+	width: 400px;
+	height: 518px;
+	margin: 10px;
+}
+
+.card {
+	width: 589px;
+	height: 530px;
+	margin: 30px;
+}
+
+.personage {
+	float: left;
+	margin: 130px;
+	margin-left: 10px;
+}
+.rounded {
+	 border-radius: 50%;
+	
+}
+
+@media (min-width:480px) {	
+	/* Apply Grid*/
+	.container {
+		/* To have the container show on 50% of your screen vertically*/
+		min-height:50vh;
+		/*vertical-align: middle;
+		line-height: 100vh;*/
+		display: grid;
+		/* The grid-column-gap property defines the size of the gap between the columns in a grid layout.*/
+		grid-column-gap: 330px;
+		/*The grid-template-columns property specifies the number (and the widths) of columns in a grid layout. The values are a space separated list, where each value specifies the size of the respective column.Auto auto auto auto means 4 column default*/
+		grid-template-columns: 10% 40% ;
+	}
+}
