@@ -10,3 +10,4 @@ https://ezginterface2.netlify.app/
 
 # Interface 3
 Create this view pixel-perfectly.
+https://ezginterface3.netlify.app/
